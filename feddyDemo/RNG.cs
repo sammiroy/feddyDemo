@@ -19,7 +19,7 @@ namespace feddyDemo
         }
 
         // Methods
-        public int roll(int hi)
+        public static int roll(int hi)
         {
             int rVal;
             Random r = new Random();

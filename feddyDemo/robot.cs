@@ -23,7 +23,7 @@ namespace feddyDemo
             botId = BotId;
             botPos = BotPos;
             botDifficulty = BotDifficulty;
-            botRandInt = 0;
+            botRandInt = RNG.roll(1);
         }
 
         // Methods
