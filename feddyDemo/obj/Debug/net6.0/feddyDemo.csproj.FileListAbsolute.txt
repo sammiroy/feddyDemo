@@ -1,0 +1,15 @@
+F:\Visual Studio 2022\Projects\feddyDemo\bin\Debug\net6.0\feddyDemo.exe
+F:\Visual Studio 2022\Projects\feddyDemo\bin\Debug\net6.0\feddyDemo.deps.json
+F:\Visual Studio 2022\Projects\feddyDemo\bin\Debug\net6.0\feddyDemo.runtimeconfig.json
+F:\Visual Studio 2022\Projects\feddyDemo\bin\Debug\net6.0\feddyDemo.dll
+F:\Visual Studio 2022\Projects\feddyDemo\bin\Debug\net6.0\ref\feddyDemo.dll
+F:\Visual Studio 2022\Projects\feddyDemo\bin\Debug\net6.0\feddyDemo.pdb
+F:\Visual Studio 2022\Projects\feddyDemo\obj\Debug\net6.0\feddyDemo.csproj.AssemblyReference.cache
+F:\Visual Studio 2022\Projects\feddyDemo\obj\Debug\net6.0\feddyDemo.GeneratedMSBuildEditorConfig.editorconfig
+F:\Visual Studio 2022\Projects\feddyDemo\obj\Debug\net6.0\feddyDemo.AssemblyInfoInputs.cache
+F:\Visual Studio 2022\Projects\feddyDemo\obj\Debug\net6.0\feddyDemo.AssemblyInfo.cs
+F:\Visual Studio 2022\Projects\feddyDemo\obj\Debug\net6.0\feddyDemo.csproj.CoreCompileInputs.cache
+F:\Visual Studio 2022\Projects\feddyDemo\obj\Debug\net6.0\feddyDemo.dll
+F:\Visual Studio 2022\Projects\feddyDemo\obj\Debug\net6.0\ref\feddyDemo.dll
+F:\Visual Studio 2022\Projects\feddyDemo\obj\Debug\net6.0\feddyDemo.pdb
+F:\Visual Studio 2022\Projects\feddyDemo\obj\Debug\net6.0\feddyDemo.genruntimeconfig.cache
