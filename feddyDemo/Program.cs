@@ -8,21 +8,39 @@ namespace feddyDemo
     {
         static void Main(string[] args)
         {
+            #region Initiation
             // Welcome Notice
             Console.WriteLine("feddyDemo version 0.0.1");
             Console.WriteLine("By Samantha Roy");
 
-            // Test Fuctions
-            Robot robot1 = new Robot("Freddy", 0, 0, 0);
-            robot1.showBotPos();
+            // Init objects
+            Robot freddy = new Robot("Freddy", 10, 5, 5); // Origin, Position, Agression
 
-            // Menu Loop
+            // Init variables
+            RNG systemRoll = new RNG();
             bool loop = true;
+            int posCheck = freddy.returnBotPos();
+            #endregion
+
+            #region Game Loop
+            // Menu Loop
             while (loop)
             {
-                loop = false;
-            }
-        }
+                // Check if a robot is in the office, if not, move on
+                if (posCheck == 0)
+                {
+                    // Player dies end loop
+                    Console.WriteLine("You died, something got inside!");
+                    loop = false;
+                }
 
+                // Reveal System Int & Robot Stats
+                Console.WriteLine(systemRoll.returnRoll());
+                freddy.showStats();
+
+                // Roll and compare 
+            }
+            #endregion
+        }
     }
 }
