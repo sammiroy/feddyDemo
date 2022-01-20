@@ -38,8 +38,6 @@ namespace feddyDemo
         // Show all of a given objects field stats
         public void showStats()
         {
-            Console.WriteLine(this.botName);
-            Console.WriteLine(this.botOrigin);
             Console.WriteLine(this.botPos);
             Console.WriteLine(this.botDifficulty);
         }
@@ -74,7 +72,7 @@ namespace feddyDemo
                 // move closer to player or teleport to a random room
                 Console.WriteLine("moved");
 
-                this.botPos--;
+                this.botPos = this.botPos - 2;
             } else
             {
                 // attack!
@@ -87,23 +85,22 @@ namespace feddyDemo
         map is open */
         public void attemptAttack(bool isLeftDoorClosed, bool isRightDoorClosed)
         {
-            if ((botPos == 1) && (isLeftDoorClosed = false))
+            if ((botPos == 1) && (!isLeftDoorClosed))
             {
                 // attack from left is successful
                 Console.WriteLine("attacked from right!");
                 this.botPos = 0;
-                return;
-            } else if ((botPos == 2) && (isRightDoorClosed = false))
+            } else if ((botPos == 2) && (!isRightDoorClosed))
             {
                 // attack from right is successful
                 Console.WriteLine("attacked from left!");
                 this.botPos = 0;
-                return;
+            } else
+            {
+                // neither attack is successful
+                Console.WriteLine("attack failed...");
+                this.botPos = this.botOrigin;
             }
-            // neither attack is successful
-            Console.WriteLine("attack failed...");
-            this.botPos = this.botOrigin;
-            return;
         }
         #endregion
     }
